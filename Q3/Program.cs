@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Q3
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			DateTime FirstDay = DateTime.Now.AddDays(-DateTime.Now.Day+1);
+			string firstday1 = FirstDay.ToString("yyyy/MM/dd");
+			Console.WriteLine("本月第一天為: " + firstday1);
+		}
+	}
+}
